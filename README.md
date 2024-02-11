@@ -39,7 +39,13 @@
 
         public static final String CONTENT_TYPE = "application/json".
 
-- *NOTE - This base url is only valid till June 2024 becouse of changement in firebase policy*
+- *NOTE - This base url is only valid till June 2024 becouse of changement in firebase policies.*
+
+## Step - 3
+- Now call this POST API in your MainActivity.
+- And don't forget to implement this one line code in your MainActivity!
+
+      FirebaseMessaging.getInstance().subscribeToTopic(TOPIC);
 
 
  
