@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FirebaseMessaging.getInstance().subscribeToTopic(TOPIC);
-
         title = findViewById(R.id.title);
         message = findViewById(R.id.desc);
 
