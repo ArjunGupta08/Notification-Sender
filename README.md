@@ -43,9 +43,7 @@
 
 ## Step - 3
 - Now call this POST API in your MainActivity.
-- And don't forget to implement this one line code in your MainActivity!
 
-      FirebaseMessaging.getInstance().subscribeToTopic(TOPIC);
-
-
- 
+## Step - 4
+ - Now come to notification reciever applicatioon
+ - https://github.com/ArjunGupta08/Notification-Receiver
